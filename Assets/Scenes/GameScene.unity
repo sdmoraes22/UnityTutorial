@@ -658,6 +658,7 @@ MonoBehaviour:
   countersLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  selectedCounter: {fileID: 0}
 --- !u!4 &616271103
 Transform:
   m_ObjectHideFlags: 0
@@ -1047,6 +1048,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2238620808714000830, guid: 101a79af4312a4c439d314194a3ff55b,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 6528672862606693253, guid: 11dab493794be544284eb6caa5852692,
+        type: 3}
+    - target: {fileID: 2238620808714000830, guid: 101a79af4312a4c439d314194a3ff55b,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 31f9aa06112a79b45887534b385d65c8,
+        type: 2}
     - target: {fileID: 5884904452892948758, guid: 101a79af4312a4c439d314194a3ff55b,
         type: 3}
       propertyPath: m_RootOrder
